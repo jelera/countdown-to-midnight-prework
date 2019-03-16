@@ -2,6 +2,6 @@
 
 def countdown(seconds)
   seconds.times do |i|
-    puts "#{i + 1} SECOND(S)!"
+    puts "#{seconds - i}  SECOND(S)!"
   end
 end
