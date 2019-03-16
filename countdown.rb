@@ -1,5 +1,7 @@
 #write your code here
 
 def countdown(seconds)
-  puts seconds
+  seconds.times do |i|
+    puts i
+  end
 end
